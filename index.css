@@ -1,0 +1,48 @@
+/* ✅ Tailwind MUST be first */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ✅ Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ✅ Body Styling */
+body {
+  font-family: system-ui, -apple-system, sans-serif;
+  background-color: #f3f4f6; /* light gray background */
+  color: #111827;
+}
+
+/* ✅ Root Container */
+#root {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* ✅ Headings */
+h1 {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+/* ✅ Table Fix */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+/* ✅ Smooth UI */
+button {
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
